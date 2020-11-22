@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+body {
+    background-color: #362e2f;
+
+    header {
+        color: white;
+        display: flex;
+        justify-content: center;
+        
+
+        nav{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            margin-top: 2%;
+
+            h2{
+                letter-spacing: 10px;
+                font-family: sans-serif;
+            }
+            
+            
+            ul{
+                display: flex;
+                justify-content: space-between;
+                width: 20%;
+                
+              }
+
+        }
+    }
+
+    main{
+        p{
+            font-size: 8em;
+            color: white;
+            font-family: serif;
+        }
+
+        span:nth-child(2) {
+            color: rgb(112, 112, 112);
+            font-size: 30px;
+            font-family: 'Playball', cursive;
+            
+        }
+
+        
+    }
+        
+
+            
+}
+
+@mixin desktop {
+    @media (max-width: #{$large-device-width}) {
+      @content;
+    }
+  }
+  
+  @mixin tablet {
+    @media (max-width: #{$medium-device-width}) {
+      @content;
+    }
+  }
+  
+  @mixin mobile {
+    @media (max-width: #{$small-device-width}) {
+      @content;
+    }
+  }
+  
+  @mixin extra-small-mobile {
+    @media (max-width: #{$extra-small-device-width}) {
+      @content;
+    }
+  }

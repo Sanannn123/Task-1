@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body {
+  background-color: #362e2f;
+}
+
+body header {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2%;
+}
+
+body header nav h2 {
+  letter-spacing: 10px;
+  font-family: sans-serif;
+}
+
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 20%;
+}
+
+body main p {
+  font-size: 8em;
+  color: white;
+  font-family: serif;
+}
+
+body main span:nth-child(2) {
+  color: #707070;
+  font-size: 30px;
+  font-family: 'Playball', cursive;
+}
+/*# sourceMappingURL=style.css.map */
